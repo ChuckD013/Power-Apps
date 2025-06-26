@@ -9,18 +9,18 @@ This folder contains an unmanaged Power Apps solution designed to manage users w
   - User must be a **System Administrator** in the target environment to manage security roles.
   - The app must remain within a solution
 
-## Installation
-
-1. Import the unmanaged solution into your Power Platform environment.
-2. Link and/or create the necessary tables
-
 ## Data connections
 
-- The following connections are necessary:
+- The following connections are required:
   - Canvas Apps (canvasapp), inherent Dataverse table
   - Environments, locally created Dataverse table
   - Security Roles (role), inherent Dataverse table
   - Users (systemuser), inherent Dataverse table
+
+## Installation
+
+1. Import the unmanaged solution into your Power Platform environment.
+2. Link and/or create the necessary tables
 
 ## Local table creation
 
@@ -34,6 +34,7 @@ Upon opening the app, you should see the Security Roles that are contained withi
   - Start by clicking or searching for a Security Role to view the users therein.
   - Once a security role has been selected, the users listed in that role will then appear to the right.
   - If you need to add a user, search for them in the combobox above the user gallery.  Once you have found the user, clicking on their name will add them to that role.
+    - The add user combobox does filter out '.com' email accounts since I only want to see users in my organization.  It also excludes accounts that are inactive.  You can modify the filter accordingly.
   - Conversely, if you need to remove a user from the security role, click on the trash icon and that role will no longer be assoicated to them.
 
 ---
