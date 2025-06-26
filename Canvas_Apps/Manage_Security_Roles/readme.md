@@ -1,4 +1,4 @@
-# Power Apps Unmanaged Solution: Security Role Manager
+# Power Apps Unmanaged Solution: Security Role User Manager
 
 This folder contains an unmanaged Power Apps solution designed to manage users within the Security Roles of your environment.
 
