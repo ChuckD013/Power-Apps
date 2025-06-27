@@ -36,7 +36,3 @@ Upon opening the app, you should see the Security Roles that are contained withi
   - If you need to add a user, search for them in the combobox above the user gallery.  Once you have found the user, clicking on their name will add them to that role.
     - The add user combobox does filter out '.com' email accounts since I only want to see users in my organization.  It also excludes accounts that are inactive.  You can modify the filter accordingly.
   - Conversely, if you need to remove a user from the security role, click on the trash icon and that role will no longer be assoicated to them.
-
----
-
-*More details and usage instructions will be added soon.*
