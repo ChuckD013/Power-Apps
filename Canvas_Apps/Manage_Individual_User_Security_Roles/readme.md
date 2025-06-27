@@ -27,7 +27,7 @@ If you dislike drilling down through the environment settings items in the Admin
 
 A local table named Environments must be created in order for the app to work properly across multiple environments.  You could also hardcode the necessary data (App.OnStart) if this will only operate in a single environment.  The following columns are required:
   - Name - Name of the environment (i.e. Development, Test, Production)
-  - Environment ID - The ID of the target environment.
+  - Environment ID - The ID of the target environment
 
 ## Usage
 
@@ -38,3 +38,4 @@ Upon opening the app, you should see a user gallery on the left that shows all o
   - Once a user has been selected, the assigned Security Roles will appear under Assigned Roles, to right.
   - If you need to add a Security Role, search for it in the Available Roles.  Once you have found the role you want to assign, clicking on the role will associate it to their account.
   - Conversely, if you need to remove a user's role, clicking on the role under Assigned Roles will unassociate that role from their account.
+  - There is a button in the app but it is not directly interacted with since that code is used multiple times; it operations like a function.  I left it visible so you could see all of the app controls.  It is used to create the collections of the necessary Security Roles so the galleries can display the proper items.  
