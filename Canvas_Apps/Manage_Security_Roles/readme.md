@@ -1,6 +1,6 @@
 # Power Apps Unmanaged Solution: Security Role User Manager
 
-This folder contains an unmanaged Power Apps solution designed to manage users within the Security Roles of your environment.
+If you dislike drilling down through the environment settings items in the Admin center to manage Security Roles, this app is for you!  This folder contains an unmanaged Power Apps solution designed to manage users within the Security Roles of your environment.
 
 ## Overview
 
